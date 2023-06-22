@@ -36,7 +36,7 @@ void xfpush(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_pall - prints the stack
+ * xfpall - prints the stack
  * @head: stack head
  * @counter: no used
  * Return: no return

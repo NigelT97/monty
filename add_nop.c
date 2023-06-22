@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_add - adds the top two elements
+ * xfadd - adds the top two elements
  * @head: stack head
  * @counter: line number
 */
@@ -31,7 +31,7 @@ void xfadd(stack_t **head, unsigned int counter)
 }
 
 /**
-* free_stack - frees a doubly linked
+* xfreestack - frees a doubly linked
 * @head: head of the stack
 */
 void xfreestack(stack_t *head)
@@ -47,7 +47,7 @@ void xfreestack(stack_t *head)
 	}
 }
 /**
-  *f_nop- nothing
+  *xfnop- nothing
   *@head: stack head
   *@counter: line_number
   *Return: no return

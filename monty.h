@@ -50,7 +50,9 @@ void xfreestack(stack_t *head);
 void xaddnode(stack_t **head, int n);
 void xaddqueue(stack_t **head, int n);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
-
+void xfsub(stack_t **head, unsigned int counter);
+void xfdiv(stack_t **head, unsigned int counter);
+void xfpint(stack_t **head, unsigned int number);
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value

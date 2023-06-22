@@ -1,9 +1,8 @@
 #include "monty.h"
 /**
- * f_pop - prints the top
+ * xfpop - prints the top
  * @head: stack head
  * @counter: line_number
- * Return: no return
 */
 void xfpop(stack_t **head, unsigned int counter)
 {
@@ -22,7 +21,7 @@ void xfpop(stack_t **head, unsigned int counter)
 	free(h);
 }
 /**
- * f_swap - adds the top two elements
+ * xfswap - adds the top two elements
  * @head: stack head
  * @counter: line_number
  * Return: no return
@@ -52,7 +51,7 @@ void xfswap(stack_t **head, unsigned int counter)
 	h->next->n = aux;
 }
 /**
- * addnode - add node to the head stack
+ * xaddnode - add node to the head stack
  * @head: head of the stack
  * @n: new_value
  * Return: no return
@@ -75,7 +74,7 @@ void xaddnode(stack_t **head, int n)
 	*head = new_node;
 }
 /**
- * addqueue - add node to the tail stack
+ * xaddqueue - add node to the tail stack
  * @n: new_value
  * @head: head of the stack
  * Return: no return
