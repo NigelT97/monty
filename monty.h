@@ -53,6 +53,16 @@ int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void xfsub(stack_t **head, unsigned int counter);
 void xfdiv(stack_t **head, unsigned int counter);
 void xfpint(stack_t **head, unsigned int number);
+void xfmul(stack_t **head, unsigned int counter);
+void xfmod(stack_t **head, unsigned int counter);
+void xfpchar(stack_t **head, unsigned int counter);
+void xfpstr(stack_t **head, unsigned int counter);
+void xfrotl(stack_t **head, unsigned int counter);
+void xfrotr(stack_t **head, __attribute__((unused)) unsigned int counter);
+
+
+
+
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value
