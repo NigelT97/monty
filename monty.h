@@ -45,7 +45,8 @@ void xfswap(stack_t **head, unsigned int counter);
 void xfadd(stack_t **head, unsigned int counter);
 void xfnop(stack_t **head, unsigned int counter);
 void xfreestack(stack_t *head);
-
+void xaddnode(stack_t **head, int n);
+void xaddqueue(stack_t **head, int n);
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value
