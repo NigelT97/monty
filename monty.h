@@ -47,6 +47,8 @@ void xfnop(stack_t **head, unsigned int counter);
 void xfreestack(stack_t *head);
 void xaddnode(stack_t **head, int n);
 void xaddqueue(stack_t **head, int n);
+int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value
